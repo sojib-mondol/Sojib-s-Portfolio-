@@ -9,7 +9,7 @@ import Contact from '../Contact/Contact';
 const Home = () => {
     return (
         <div>
-            <div className="hero min-h-screen  text-black">
+            <div className="hero   text-black">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={profileImg} alt='profile-pic' className="max-w-sm rounded-lg " />
                 <div>

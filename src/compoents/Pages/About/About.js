@@ -7,7 +7,7 @@ const About = () => {
             <h3 className="text-xl  text-center font-bold">About Me</h3>
             <div className="hero min-h-screen ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className="text-center lg:text-left">
+                    <div className=" lg:text-left md:text-left sm:text-left text-left">
                     <h1 className="text-5xl font-bold">I am Sojib Mondol</h1>
                     <p className="py-6">I am a web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</p>
                     <p>Name: <span className='pl-8'>Sojib Mondol</span>

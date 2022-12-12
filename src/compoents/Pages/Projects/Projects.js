@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Pimg1 from '../../../assets/projects/1.png'
 import Pimg2 from '../../../assets/projects/2.png'
 import Pimg3 from '../../../assets/projects/3.png'
@@ -21,6 +22,7 @@ const Projects = () => {
                                 <a href='https://github.com/sojib-sudo/Star-Programming-School-Client' className="btn btn-outline w-20 mr-3">Client</a>
                                 <a href='https://github.com/sojib-sudo/Star-Programming-School-Server' className="btn btn-outline w-20 mr-3">Server</a>
                             </div>
+                            <Link to='/project1' className="btn btn-outline w-full ">Details</Link>
                             </div>
                             
                         </div>
@@ -35,6 +37,7 @@ const Projects = () => {
                                     <a href='https://github.com/sojib-sudo/star-clould-kitchen-client' className="btn btn-outline w-20 mr-3">Client</a>
                                     <a href='https://github.com/sojib-sudo/srat-clould-kitchen-server' className="btn btn-outline w-20 mr-3">Server</a>
                                 </div>
+                                <Link to='project2' className="btn btn-outline w-full ">Details</Link>
                             </div>
                         </div>
                         <div className="card card-compact  shadow-xl">
@@ -47,7 +50,12 @@ const Projects = () => {
                                     <a href='https://tv-bazarbd.web.app/' className="btn btn-outline w-20 mr-3">Live</a>
                                     <a href='https://github.com/sojib-sudo/tv-bazar-client' className="btn btn-outline w-20 mr-3">Client</a>
                                     <a href='https://github.com/sojib-sudo/tv-bazar-server' className="btn btn-outline w-20 mr-3">Server</a>
+                                    
+                                    {/* <div className="card-actions justify-end">
+                                        <button className="btn btn-primary">Buy Now</button>
+                                    </div> */}
                                 </div>
+                                <Link to='project3' className="btn btn-outline w-full ">Details</Link>
                             </div>
                         </div>
                     </div>
